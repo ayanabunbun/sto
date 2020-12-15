@@ -1,0 +1,218 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 14px 40px;
+    border-top: 3px black solid;
+    border-bottom: 1px black solid;
+}
+
+.logo{
+    height: 65px;
+    padding-left: 50px;
+}
+
+.yoyaku{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.yoyaku > li > a{
+    color: black;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+.niku{
+    width: 1080px;
+    height: 500px;
+
+}
+
+.nikuku{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   position: relative;
+}
+
+
+.aka{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+
+
+
+
+
+#osirase{
+    width: 100%;
+}
+
+#osirase > h1{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    padding-top: 40px;
+}
+
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.description{
+    width: 50%;
+}
+
+.contents > img{
+    height: 100vh;
+    margin: 0 20px;
+}
+
+.p{
+    font-size: 40px;
+}
+
+.descriptios{
+    font-size: 20px;
+}
+
+
+
+
+
+
+h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 30px;
+}
+
+
+.menu-ba{
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    height: 55px;
+    align-items: center;
+}
+
+.menu-ba > li >a{
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+
+
+
+
+.menu-list{
+    margin: 30px 700px 10px 300px;
+    
+}
+
+
+table{
+    font-size: 20px;
+    margin: 30px auto 15px 300px;
+}
+
+table > caption{
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nap-box{
+    box-sizing: border-box;
+    margin: 50px 90px auto 90px;
+}
+
+.nap-box h3{
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px
+}
+
+.nap-box table{
+    width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.nap-box th{
+    width: 20%;
+    vertical-align: middle;
+    background: gray;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.nap-box td{
+    width: 80%;
+    vertical-align: middle;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+iframe{
+    display:flex;
+    justify-content: center;
+}
+
+.map{
+    width: 80%;
+    height: 800px;
+    margin: 30px auto;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
